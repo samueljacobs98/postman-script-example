@@ -1,0 +1,51 @@
+{
+  "info": {
+    "name": "Example Postman Script",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "items": [
+    {
+      "name": "API 1 Group",
+      "item": [
+        {
+          "name": "API Endpoint 1",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Example Header 1",
+                "value": "example_header_value",
+                "type": "text"
+              },
+              {
+                "key": "Example Header 2",
+                "value": "{{example-auth-token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{env}}/{{api-1-group}}/endpoint/{{example-path-param}}",
+              "host": ["{{env}}"],
+              "path": ["{{api-1-group}}", "endpoint", "{{example-path-param}}"],
+              "query": [
+                {
+                  "key": "query-param",
+                  "value": "query-param-value",
+                  "description": "using a hard coded value",
+                  "disabled": true
+                },
+                {
+                  "key": "query-param",
+                  "value": "{{query-param-value}}",
+                  "description": "using a variable value",
+                  "disabled": true
+                }
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}

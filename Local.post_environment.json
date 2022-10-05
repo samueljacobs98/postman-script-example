@@ -1,0 +1,30 @@
+{
+  "name": "Local",
+  "values": [
+    {
+      "key": "env",
+      "value": "http:/",
+      "enabled": true
+    },
+    {
+      "key": "api-1-group",
+      "value": "api-1-group",
+      "enabled": true
+    },
+    {
+      "key": "example-path-param",
+      "value": "path_param_value",
+      "enabled": true
+    },
+    {
+      "key": "query-param-value",
+      "value": "query_param_value",
+      "enabled": true
+    },
+    {
+      "key": "example-auth-token",
+      "value": "auth_token_value",
+      "enabled": true
+    }
+  ]
+}
