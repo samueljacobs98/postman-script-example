@@ -1,10 +1,9 @@
-# Postman Script Example
+# Postman Script Example
 
-Postman scripts are a useful way of creating a detailed Postman collection with environment variables.
+Postman scripts are a powerful tool for developing detailed Postman collections that incorporate environment variables. Postman scripts can be utilised in order to streamline the development process.
 
-This repo can to be used as a reference when creating postman scripts.
+This repository serves as a reference for developers who are seeking to create Postman scripts.
 
-## Importing Into Postman
+## Importing Into Postman
 
-Import the whole folder into Postman.
-If you update a file, you need not import the whole folder again, rather just the updated file. Select replace rather than import as copy when prompted.
+Importing the contents of this repository into Postman is a straightforward process. Simply import the entire folder into Postman, and update individual files as necessary. If you have made changes to an existing file, you can simply import the updated file, rather than importing the entire folder again. When prompted, be sure to select the "replace" option, rather than importing the file as a copy.
